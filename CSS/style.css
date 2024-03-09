@@ -512,7 +512,6 @@ footer {
 
 .footer-links-col-one {
     margin: 24px 0;
-    /* display: flex; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 45px;
@@ -544,7 +543,6 @@ footer {
 }
 
 .footer-social-links {
-    /* min-width: 70%; */
     display: flex;
     gap: 40px;
     align-items: center;
