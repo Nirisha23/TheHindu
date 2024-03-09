@@ -56,35 +56,57 @@
                     </div>
                 </div>
             </nav>
+            <div class="nav-links nav-lg">
+                <div class="nav-link-list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">The Nation</a></li>
+                        <li><a href="#">Arts & Culture</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Economy</a></li>
+                        <li><a href="#">Columns</a></li>
+                        <li><a href="#">Current Issue</a></li>
+                    </ul>
+                </div>
+                <div class="nav-search">
+                    <a href="#">Go Search &nbsp; <i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+            </div>
         </div>
         <!-- Navbar responsive -->
-        <div class="container responsive">
+        <div class="container nav-responsive">
             <nav>
                 <div class="nav-logo" style="display: flex;">
-                    <button class="bar" id="menuIcon"><i class="fa fa-bars" aria-hidden="true"></i></button>
-                    <img src="./Images/mobile-logo.png" alt="Logo" width="100" height="100">
+                    <button class="bar" id="menuIcon"><i class="fa fa-bars" aria-hidden="true" width="24"
+                            hight="24"></i></button>
+                    <img src="./Images/mobile-logo.png" alt="Logo" width="40" height="50">
                     <div class="found">
                         <h4>Frontline</h4>
                         <p>India's National Magazine</p>
                     </div>
                 </div>
                 <div class="nav-links-container" id="navLinksContainer">
-                    <div class="nav-auth">
+                    <div class="nav-res-auth">
                         <button class="secondary-btn" id="loginBtn">Login</button>
                         <button class="primary-btn" id="subscribeBtn">Subscribe</button>
                     </div>
-                    <div class="nav-links">
-                        <div class="nav-link-list">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">The Nation</a></li>
-                                <li><a href="#">Arts & Culture</a></li>
-                                <li><a href="#">Politics</a></li>
-                                <li><a href="#">Economy</a></li>
-                                <li><a href="#">Columns</a></li>
-                                <li><a href="#">Current Issue</a></li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="nav-links">
+                    <div class="nav-link-list">
+                        <ul>
+                            <li><a href="#" style="color:lightgray">Politics</a></li>
+                            <i class="fa-solid fa-play"></i>
+                            <li><a href="#">Economy</a></li>
+                            <i class="fa-solid fa-play"></i>
+                            <li><a href="#">Environment</a></li>
+                            <i class="fa-solid fa-play"></i>
+                            <li><a href="#">Culture</a></li>
+                            <i class="fa-solid fa-play"></i>
+                            <li><a href="#">Columns</a></li>
+                            <i class="fa-solid fa-play"></i>
+                            <li><a href="#">Current Issue</a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -103,7 +125,8 @@
                             <h1>Congress Crisis</h1>
                             <h2>Congress attemps reinvention with Bharat Jodo Yatra and a new president</h2>
                             <div class="author">
-                                <h6>By Ranjani Mazumdar</h6>
+                                <h6>By Ranjani Mazumdar <b class="d-block">|</b><span class="d-block">Print edition: Oct
+                                        25, 2022</span></h6>
                                 <p>The Indian National Congress has faced three major challenges in the current
                                     political
                                     conjuncture defined by the growing influence of the Right and the polarisation
@@ -182,7 +205,8 @@
                             <h3>Are Uddhav Thackeray and his Shiv Sena fighting a losing battle or a dead and road
                                 towards
                                 election?</h3>
-                            <p>After two months of withdrawn silence, Shiv Sena Chiev Uddhav Thackeray has emerged,
+                            <p class="d-none">After two months of withdrawn silence, Shiv Sena Chiev Uddhav Thackeray
+                                has emerged,
                                 apparently recharged and energised, using the millitant language that the Sena is
                                 known
                                 for.
@@ -194,12 +218,13 @@
                             <h3>The rise and fall of the Popular Front of India is now on the scene for more
                                 internal
                                 problems</h3>
-                            <p>When the Union government banned the Popular Front of India (PFI) and its associate
+                            <p class="d-none">When the Union government banned the Popular Front of India (PFI) and its
+                                associate
                                 organisations on September 27</p>
                             <h6>By Ranjani Mazumdar</h6>
                         </div>
                     </div>
-                    <div class="story-card-one  border-right">
+                    <div class="story-card-one  border-right d-none">
                         <div class="story-image">
                             <img src="./Images/Mask Group 2915.png" alt="cardImage" width="100%" height="100%">
                         </div>
@@ -213,7 +238,7 @@
                             <h6>By Thomas Fisher</h6>
                         </div>
                     </div>
-                    <div class="story-card-one">
+                    <div class="story-card-one d-none">
                         <div class="story-card-content border-bottom">
                             <h5 class="positive">Congress Election</h5>
                             <h3>'The process will be fair, transparent': Madhusudan Mistry says about the new
@@ -235,7 +260,7 @@
                 </div>
                 <div class="see-more">
                     <a href="#">See More Stories</a>
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-sort-down"></i>
                 </div>
             </div>
         </div>
@@ -286,7 +311,14 @@
         <!-- Subscribe -->
         <div class="container">
             <div class="upgrade">
-                <h3><span>Stay informed &nbsp;&nbsp;<i class="fa-solid fa-play"></i></span> &nbsp;&nbsp;Subscribe for
+                <h3 class="d-none"><span>Stay informed &nbsp;&nbsp;<i class="fa-solid fa-play"></i></span>
+                    &nbsp;&nbsp;Subscribe for
+                    full site
+                    access,
+                    interviews, slideshows, data stories and
+                    exclusive downloads</h3>
+                <h3 class="d-block"><i class="fa-solid fa-play"></i><span> &nbsp;&nbsp;Stay informed </span>
+                    &nbsp;&nbsp;<br />Subscribe for
                     full site
                     access,
                     interviews, slideshows, data stories and
@@ -319,14 +351,15 @@
                     </div>
                     <div class="story-card-one  border-right border-none">
                         <div class="magazine-image">
-                            <img src="./Images/Mask Group 52.png" alt="cardImage" width="100%" height="100%">
+                            <img src="./Images/Mask Group 52@2x.png" alt="cardImage" width="100%" height="100%">
                         </div>
                         <div class="ebook-btn">
                             <button class="primary-btn">Read eBook</button>
                         </div>
                         <div class="story-card-content text-align">
                             <h6 style="padding-bottom: 4px;">Subscribers Only</h6>
-                            <a href="#" class="primary">Haven't you subscribed yet?</a>
+                            <a href="#" class="primary" style="text-decoration: underline;">Haven't you subscribed
+                                yet?</a>
                         </div>
                     </div>
                     <div class="story-card-one  border-right border-none">
@@ -384,17 +417,20 @@
         <!-- Subscribe -->
         <div class="container">
             <div class="upgrade">
-                <h3><i class="fa-solid fa-play"></i> &nbsp;Subscribe to our weekly newsletter to stay up-to-date on the
+                <h3 class="d-none"><i class="fa-solid fa-play"></i> &nbsp;Subscribe to our weekly newsletter to stay
+                    up-to-date on the
                     in deep news in india</h3>
-                <button class="primary-btn">Subscribe</button>
+                <h3 class='d-block'>Stay informed <br /> subscribe to our weekly newsletter to stay up-to-date on the in
+                    deep news in India.</h3>
+                <button class="primary-btn">Free Sign-Up</button>
             </div>
         </div>
         <!-- See more options -->
         <div class="container">
-            <div class="story-section">
+            <div class="story-sections">
                 <div class="story-section-head">
                     <h2 class="view-more">If You Missed it in politics</h2>
-                    <a href="#"><i class="fa-solid fa-plus"></i>See More Stories</a>
+                    <a href="#"><i class="fa-solid fa-plus"></i>SEE MORE STORIES</a>
                 </div>
                 <div class="story-section-container">
                     <div class="story-card-one  border-right">
@@ -415,7 +451,8 @@
                         <div class="story-card-content border-bottom">
                             <h5 class="positive">West Bengal</h5>
                             <h3>Trinamool Congress struggles to shake off corruption charges</h3>
-                            <p>Corruption has been a thorn in the side of West Bengal's ruling Trinamool Congress. The
+                            <p class="d-none">Corruption has been a thorn in the side of West Bengal's ruling Trinamool
+                                Congress. The
                                 arrests of Cabinet Minister Partha Chatterjee and the influential leader from Birbhum
                             </p>
                             <h6>By Ranjani Mazumdar</h6>
@@ -423,7 +460,8 @@
                         <div class="story-card-content px">
                             <h5 class="orange">Bihar</h5>
                             <h3>Chirag Paswan: Opposition unity is an illusion and a way of threat</h3>
-                            <p>Lok Janshakti Party (Ram Vilas) leader Chirag Paswan was widely seen as a vote-splitter
+                            <p class="d-none">Lok Janshakti Party (Ram Vilas) leader Chirag Paswan was widely seen as a
+                                vote-splitter
                                 in
                                 the 2020 Bihar Assembly election.</p>
                             <h6>By Akanji Moreno</h6>
@@ -447,7 +485,8 @@
                             <h5 class="positive">Deep Dive</h5>
                             <h3>Expert Explains: Why exceptions to the anti-defection law must go for sake of freedom
                             </h3>
-                            <p>With the election of the new Speaker and the securing of the confidence vote for the
+                            <p class="d-none">With the election of the new Speaker and the securing of the confidence
+                                vote for the
                                 Eknath
                                 Shinde government, the Maharashtra situation seems to be setting down.
                             </p>
@@ -458,12 +497,16 @@
                             <h3>Why do militants in J&K only seem to target Pandits and non-locals resident of side
                                 west?
                             </h3>
-                            <p>spate of killings rocked Kashmir in recent weeks, with terrorists waginng a targeted and
+                            <p class="d-none">spate of killings rocked Kashmir in recent weeks, with terrorists waginng
+                                a targeted and
                                 relentless attach on Kashmiri Pandits and some non-locals</p>
                             <h6>By Lorence Adams</h6>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="popular-view-more">
+                <a href="#"><i class="fa-solid fa-plus"></i>SEE MOST POPULAR</a>
             </div>
         </div>
     </div>
@@ -473,7 +516,7 @@
             <div class="footer-container">
                 <div class="footer-content-col-one">
                     <div class="footer-logo">
-                        <img src="./Images//footer-logo.png" alt="Logo" width="100" height="100">
+                        <img src="./Images//footer-logo.png" alt="Logo" width="50" height="60">
                         <div>
                             <h5>Frontline</h5>
                             <p>India's National Magazine</p>
@@ -548,27 +591,17 @@
                         <button class="footer-btn">Sign In</button>
                         <button class="subscribe-btn">Subscribe</button>
                     </div>
-                    <div class="social-links">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <div class="download-options">
-                        <a href="#" class="download-btn">
-                            <i class="fa-brands fa-google-play"></i>
-                            <div>
-                                <h6>GET IT ON</h6>
-                                <h5>Google Play</h5>
-                            </div>
-                        </a>
-                        <a href="#" class="download-btn">
-                            <i class="fa-brands fa-apple"></i>
-                            <div>
-                                <h6>Download on the</h6>
-                                <h5>App Store</h5>
-                            </div>
-                        </a>
+                    <div class="download-btn">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="download-options">
+                            <img src="./Images//googleplay.png" alt="PlayStoreDownload">
+                            <img src="./Images//appstore.png" alt="AppstoreDownload">
+                        </div>
                     </div>
                 </div>
                 <div class="footer-copyright">
@@ -584,14 +617,22 @@
                     <p>Copyright &copy; 2022, THG PUBLISHING PVT LTD. or its affiliated companies. All rights reserved.
                     </p>
                 </div>
+                <div class="back-to-top">
+                    <div>
+                        <a href="#"><i class="fa-solid fa-sort-up"></i></a>
+                    </div>
+                    <div>
+                        <a href="#">Back to top</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
     <!-- responsive footer -->
-    <footer>
+    <footer class="res-footer">
         <div class="footer-responsive">
             <div class="footer-head">
-                <img src="./Images//footer-logo.png" alt="Logo" width="100" height="100">
+                <img src="./Images//footer-logo.png" alt="Logo" width="40" height="50">
                 <div class="footer-btns">
                     <button class="footer-btn">Sign In</button>
                     <button class="subscribe-btn">Subscribe</button>
@@ -630,14 +671,24 @@
                 <div class="footer-copy">
                     <h5>Frontline</h5>
                     <p>India's National Magazine</p>
-                    <span>Since 1984</span>
+                    <span style="font-size:11px">Since 1984</span>
                 </div>
-                <p>Copyright &copy; 2022, THG PUBLISHING PVT LTD. or its affiliated companies. All rights
+                <p style="font-size:9px">Copyright &copy; 2022, THG PUBLISHING PVT LTD. or its affiliated companies.
+                    <br />All
+                    rights
                     reserved.
                 </p>
             </div>
         </div>
     </footer>
+    <div class="res-back-to-top">
+        <div>
+            <a href="#"><i class="fa-solid fa-sort-up"></i></a>
+        </div>
+        <div style="margin-right: 40px;">
+            <a href="#">Back to top</a>
+        </div>
+    </div>
     <script src="./JS/script.js"></script>
 </body>
 
